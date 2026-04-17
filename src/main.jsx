@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
+import { build } from 'vite'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,12 +12,15 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </StrictMode>
 )
-return 
-(
-  <div style={{ backgroundColor: "red", color: "black", height: "100vh" }}>
-    <h1>home page</h1>
-    <p>{userdata.name}</p>
-    <p>{userdata.address}</p>
-    <p>{userdata.language}</p>
-  </div>
-)
+function App() {
+  return (
+    <div style={{
+      backgroundColor: "black",
+      color: "white",
+      minHeight: "100vh",
+      width: "100vw"
+    }}>
+      <h1>Home page</h1>
+    </div>
+  )
+}

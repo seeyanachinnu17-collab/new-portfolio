@@ -11,3 +11,12 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </StrictMode>
 )
+return 
+(
+  <div style={{ backgroundColor: "red", color: "black", height: "100vh" }}>
+    <h1>home page</h1>
+    <p>{userdata.name}</p>
+    <p>{userdata.address}</p>
+    <p>{userdata.language}</p>
+  </div>
+)

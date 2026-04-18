@@ -36,7 +36,7 @@ function App() {
 return (
   function App() {
   return (
-    <div style={{ backgroundColor: "black", color: "white", minHeight: "100vh" }}>
+    <div style={{ backgroundColor: "red", color: "blaqck", minHeight: "100vh" }}>
       <h1>Home page</h1>
     </div>
   )

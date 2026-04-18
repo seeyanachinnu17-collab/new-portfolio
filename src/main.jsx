@@ -15,8 +15,8 @@ createRoot(document.getElementById('root')).render(
 function App() {
   return (
     <div style={{
-      backgroundColor: "black",
-      color: "white",
+      backgroundColor: "red",
+      color: "black",
       minHeight: "100vh",
       width: "100vw"
     }}>
